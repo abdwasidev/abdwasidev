@@ -4,7 +4,7 @@
 
 ### Hi, I'm Abdul Wasi' 👋 
 
-### : woman_technologist: &nbsp;About Me :
+### 👨‍💻 About Me :
 
 I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from UPN “Veteran” East Java.
 
