@@ -4,14 +4,13 @@
 
 ### Hi, I'm Abdul Wasi' 👋 
 
-### : man_technologist: &nbsp;About Me :
+### : woman_technologist: &nbsp;About Me :
 
-I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from UPN "Veteran" Jawa Timur.
+I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from UPN “Veteran” East Java.
 
-- 🔭 I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
-- 🌱 Exploring Technical Content Writing.
-- ⚡ In my free time I solve problems on GeeksforGeeks and read tech articles.
-- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abdwasidev)
+- 🔭 I’m Interest frontend and flutter for building web/mobile applications.
+- ⚡ In my free time I learn on learning programming from watching Youtube and read programming articles.
+- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-abdwasidev-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abdwasidev)
 
 
 <!--
