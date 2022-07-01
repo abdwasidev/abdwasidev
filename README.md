@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I'm Abdul Wasi' 👋 
 
 <!--
 **abdwasidev/abdwasidev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## Social Media : 
+- <a href="https://github.com/abdwasidev">Github</a>
+- <a href="https://www.linkedin.com/in/abdwasidev/">LinkedIn</a>
+- <a href="https://facebook.com/abdwasidev">Facebook</a>
+- <a href="https://instagram.com/abdwasidev">Instagram</a>
+- <a href="mailto:abdulwasialafif@gmail.com">Email</a>
