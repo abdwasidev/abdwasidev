@@ -10,7 +10,7 @@ I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.
 
 - 🔭 I’m Interest frontend and flutter for building web/mobile applications.
 - ⚡ In my free time, I learn programming from watching Youtube and reading programming articles.
-- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-abdwasidev-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abdwasidev)
+- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-abdwasidev-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abdwasidev) or [![Gmail Badge](https://img.shields.io/badge/-abdwasidev-blue?style=flat&logo=Gmail&logoColor=white)](mailto:abdulwasialafif@gmail.com)
 
 ---
 
@@ -34,25 +34,4 @@ I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itsZed0&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
-
-<!--
-**abdwasidev/abdwasidev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-## Social Media : 
-- <a href="https://github.com/abdwasidev">Github</a>
-- <a href="https://www.linkedin.com/in/abdwasidev/">LinkedIn</a>
-- <a href="https://facebook.com/abdwasidev">Facebook</a>
-- <a href="https://instagram.com/abdwasidev">Instagram</a>
-- <a href="mailto:abdulwasialafif@gmail.com">Email</a>
+&nbsp; Thanks :
