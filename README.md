@@ -2,11 +2,11 @@
 <a href="https://www.linkedin.com/in/abdwasidev"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
 </p>
 
-### Hi, I'm Abdul Wasi' 👋 
+### &nbsp;Hi, I'm Abdul Wasi' 👋 
 
 ---
 
-### 👨‍💻 About Me :
+### 👨‍💻 &nbsp;About Me :
 
 I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from UPN “Veteran” East Java.
 
@@ -40,4 +40,4 @@ I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.
 
 ---
 
-&nbsp; Thanks
+&nbsp; Thanks 🙏
