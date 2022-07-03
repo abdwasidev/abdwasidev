@@ -36,7 +36,9 @@ I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.
 ### 🔥 &nbsp; My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=abdwasidev&theme=dark&background=000000)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abdwasidev&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=abdwasidev&show_icons=true&theme=radical)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abdwasidev&layout=compact&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
