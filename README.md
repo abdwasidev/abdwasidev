@@ -11,7 +11,7 @@
 I am a Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from UPN “Veteran” East Java.
 
 - 🔭 I’m Interest frontend and flutter for building web/mobile applications.
-- ⚡ In my free time, I learn programming from watching Youtube and reading programming articles.
+- ⚡ In my free time, I learn programming from watching Youtube, reading programming articles, and playing games.
 - 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-abdwasidev-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abdwasidev) or [![Gmail Badge](https://img.shields.io/badge/-abdulwasialafif-red?style=flat&logo=Gmail&logoColor=white)](mailto:abdulwasialafif@gmail.com)
 
 ---
