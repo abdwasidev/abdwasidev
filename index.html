@@ -4,149 +4,455 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio - Abdul Wasi</title>
+    <title>Abdul Wasi' Al-Afif - Portofolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#content">Resume</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <article class="home-view center">
-            <img src="profile.png" alt="Abdul Wasi">
-            <h4>Hi, I'm Abdul Wasi'</h4>
-            <h1>Building website with HTML, CSS, and Javascript</h1>
-            <p>a <strong>Front End Developer and UI Designer</strong> from Lamongan.</p>
-            <p>I'm specialize in UI Mobile & Website, Responsive Web Design, and Progressive Web Apps</p>
-            <a href="https://linkedin.com/in/abdwasidev" target=”_blank”><button class="mark">CONNECT WITH ME</button></a>
-        </article>
-        <div id="services" class="layout-margin">
-            <article class="flex-container-column service center">
-                <h2>Services</h2>
-                <section class="flex-container-row">
-                    <article class="service-card service-data">
-                        <h4>Design UI/UX</h4>
-                        <p>Website, application or other design related task. I love tackling digital problems and help fix them.</p>
-                    </article>
-                    <article class="service-card service-data">
-                        <h4>Web Development</h4>
-                        <p>Build a responsive, stunning, and user-friendly website from scratch or looking for someone to redesign & develop your existing website.</p>
-                    </article>
-                    <article class="service-card service-data">
-                        <h4>Mobile Apps</h4>
-                        <p>Get a professionally designed Android app for your organization. Also, I can convert your website into an interactive mobile app.</p>
-                    </article>
-                </section>
-            </article>
-        </div>
-        <div id="content" class="flex-container-column card layout-margin">
-            <h2>Resume</h2>
-            <div id="resume" class="flex-container-row">
-                <section class="resume-left">
-                    <article>
-                        <h3>Organization <strong>&raquo;</strong></h3>
-                        <div class="item-info">
-                            <h4>Informatics Learning Community</h5>
-                            <b>Anggota Divisi Edukasi</b>
-                            <p>04/2021 - 04/2022</p>
-                        </div>
-                        <div class="item-info">
-                            <h4>Mobile Developer Community</h5>
-                            <b>Koordinator Flutter</b>
-                            <p>04/2021 - 10/2021</p>
-                        </div>
-                        <div class="item-info">
-                            <h4>UKM Penalaran dan Kreativitas</h5>
-                            <b>Anggota Divisi Internal dan Eksternal</b>
-                            <p>01/2021 - 06/2022</p>
-                        </div>
-                    </article>
-                    <article>
-                        <h3>Skills <strong>&raquo;</strong></h3>
-                        <div id="skills-item"></div>
-                    </article>
-                    <article>
-                        <h3>Tools <strong>&raquo;</strong></h3>
-                        <div id="tools-item"></div>
-                    </article>
-                </section>
-                <section class="resume-item">
-                    <article>
-                        <h3>Education <strong>&raquo;</strong></h3>
-                        <div class="item-info">
-                            <h4>UPN "Veteran" Jawa Timur</h5>
-                            <b>Informatika</b>
-                            <p>09/2020 - Present</p>
-                        </div>
-                        <div class="item-info">
-                            <h4>SMA Negeri 3 Lamongan</h5>
-                            <b>IPA</b>
-                            <p>06/2017 - 04/2020</p>
-                        </div>
-                    </article>
-                    <article>
-                        <h3>Online Course <strong>&raquo;</strong></h3>
-                        <div class="item-info">
-                            <h4>Eko Kurniawan Khannedy</h5>
-                                <p><a href="https://www.udemy.com/course/pemrograman-php-pemula-sampai-mahir/"  target=”_blank”>Pemrograman PHP : Pemula sampai Mahir</a></p>
-                                <p><a href="https://www.udemy.com/course/pemrograman-java-pemula-sampai-mahir/"  target=”_blank”>Pemrograman Java : Pemula sampai Mahir</a></p>
-                        </div>
-                        <div class="item-info">
-                            <h4>Dicoding</h5>
-                            <p><a href="https://www.dicoding.com/academies/191"  target=”_blank”>Memulai Pemrograman Dengan Dart</a></p>
-                            <p><a href="https://www.dicoding.com/academies/169"  target=”_blank”>Belajar Prinsip Pemrograman SOLID</a></p>
-                            <p><a href="https://www.dicoding.com/academies/159"  target=”_blank”>Belajar Membuat Aplikasi Flutter untuk Pemula</a></p>
-                        </div>
+        <article class="container center">
+            <nav>
+                <article class="flex-column">
+                    <section class="card-footer flex-row">
+                        <button class="buttontabs purple" onclick="openTabs(event, 'HomePage')" id="default">
+                            <div class="japanese">にぎり</div>
+                            <div class="roman">Home</div>
+                        </button>
+                        <button class="buttontabs teal" onclick="openTabs(event, 'ExperiencePage')">
+                            <div class="japanese">にぎり</div>
+                            <div class="roman">Experience</div>
+                        </button>
+                        <button class="buttontabs pink" onclick="openTabs(event, 'EducationPage')">
+                            <div class="japanese">にぎり</div>
+                            <div class="roman">Education</div>
+                        </button>
+                        <button class="buttontabs yellow" onclick="openTabs(event, 'ProjectPage')">
+                            <div class="japanese">にぎり</div>
+                            <div class="roman">Projects</div>
+                        </button>
+                        <button class="buttontabs green" onclick="openTabs(event, 'CertificatePage')">
+                            <div class="japanese">にぎり</div>
+                            <div class="roman">Certificate</div>
+                        </button>
+                        <button class="buttontabs red" onclick="openTabs(event, 'AboutMePage')">
+                            <div class="japanese">にぎり</div>
+                            <div class="roman">About Me</div>
+                        </button>
+                    </section>
+                </article>
+            </nav>
+            <div id="HomePage" class="tabcontent active">
+                <section class="home">
+                    <article class="flex-row">
+                        <section class="center">
+                            <h1>Hi, I'm <div>Abdul Wasi' Al-Afif</div></h1>
+                            <h3>Welcome to My Portofolio</h3>
+                            <img src="profile.png" alt="">
+                            <p>I am specialize in UI Mobile &amp; Website, Responsive Web Design, and Progressive Web Apps</p>
+                            <div class="button">
+                                <a href="https://linkedin.com/in/abdwasidev" target="_blank" rel="noopener noreferrer">
+                                    <button>LinkedIn</button>
+                                </a>
+                                <a href="https://github.com/abdwasidev" target="_blank" rel="noopener noreferrer">
+                                    <button>Github</button>
+                                </a>
+                                <a href="https://instagram.com/abdwasidev" target="_blank" rel="noopener noreferrer">
+                                    <button >Instagram</button>
+                                </a>
+                                <a href="https://facebook.com/abdwasidev" target="_blank" rel="noopener noreferrer">
+                                    <button>Facebook</button>
+                                </a>
+                                <a href="https://twitter.com/abdwasidev" target="_blank" rel="noopener noreferrer">
+                                    <button>Twitter</button>
+                                </a>
+                                <a href="mailto:abdulwasialafif@gmail.com   " target="_blank" rel="noopener noreferrer">
+                                    <button>Email</button>
+                                </a>
+                            </div>
+                            <div class="last-update">
+                                <button>Last Update : <span>Aug, 26 - 2022</span></button>
+                            </div>
+                        </section>
                     </article>
                 </section>
             </div>
-        </div>
-        <aside id="about">
-            <article class="profile card">
-                <header>
-                    <h2>About</h2>
-                    <b><p>Abdul Wasi'</p></b>
-                    <figure>
-                        <img src="profile.png">
-                        <!-- <figcaption>Lambang</figcaption> -->
-                    </figure>
-                </header>
-                <section>
-                    <h3>Informasi Lainnya</h3>
-                    <table>
-                        <tr>
-                            <th>Kebangsaan</th>
-                            <td>Indonesia</td>
-                        </tr>
-                        <tr>
-                            <th>Asal</th>
-                            <td>Lamongan</td>
-                        </tr>
-                        <tr>
-                            <th>Lahir</th>
-                            <td>18 Juni 2002</td>
-                        </tr>
-                        <tr>
-                            <th>Email</th>
-                            <td>abdulwasialafif@gmail.com</td>
-                        </tr>
-                    </table>
+            <div id="ExperiencePage" class="tabcontent">
+                <section class="experience">
+                    <h1>EXPERIENCE</h1>
+                    <article class="flex-row">
+                        <section class="card-experience flex-column">
+                            <h3>Member Divisi Edukasi</h3>
+                            <h4>Informatics Learning Community</h4>
+                            <div><b>April 2021 - Present</b></div>
+                            <div class="type-ex">
+                                <button class="type-experience">Organization</button>
+                            </div>
+                            <div class="jobdesk-list">
+                                <!-- <li>Jobdesk A</li>
+                                <li>Jobdesk B</li>
+                                <li>Jobdesk C</li>
+                                <li>Jobdesk D</li>
+                                <li>Jobdesk E</li> -->
+                            </div>
+                            <div class="button">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <button>LinkedIn</button>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <button class="btn">Website</button>
+                                </a>
+                            </div>
+                        </section>
+                        <section class="card-experience flex-column">
+                            <h3>Koordinator Flutter</h3>
+                            <h4>Mobile Developer Community</h4>
+                            <div><b>April 2021 - October 2021</b></div>
+                            <div class="type-ex">
+                                <button class="type-experience">Organization</button>
+                            </div>
+                            <div class="jobdesk-list">
+                                <!-- <li>Jobdesk A</li>
+                                <li>Jobdesk B</li>
+                                <li>Jobdesk C</li>
+                                <li>Jobdesk D</li>
+                                <li>Jobdesk E</li> -->
+                            </div>
+                            <div class="button">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <button>LinkedIn</button>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <button class="btn">Website</button>
+                                </a>
+                            </div>
+                        </section>
+                        <section class="card-experience flex-column">
+                            <h3>Member Divisi Internal dan Eksternal</h3>
+                            <h4>UKM Penalaran dan Kreativitas</h4>
+                            <div><b>January 2021 - Present</b></div>
+                            <div class="type-ex">
+                                <button class="type-experience">Organization</button>
+                            </div>
+                            <div class="jobdesk-list">
+                                <!-- <li>Jobdesk A</li>
+                                <li>Jobdesk B</li>
+                                <li>Jobdesk C</li>
+                                <li>Jobdesk D</li>
+                                <li>Jobdesk E</li> -->
+                            </div>
+                            <div class="button">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <button>LinkedIn</button>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <button class="btn">Website</button>
+                                </a>
+                            </div>
+                        </section>
+                    </article>
+                    <article class="flex-row">
+                    </article>
                 </section>
-            </article>
-        </aside>
+            </div>
+            <div id="EducationPage" class="tabcontent">
+                <section class="education">
+                    <h1>EDUCATION</h1>
+                    <article class="flex-row">
+                        <section class="card-education flex-column">
+                            <h3>UPN "VETERAN" EAST JAVA</h3>
+                            <b>2020 - Present</b>
+                            <h4>INFORMATICS ENGINEERING</h4>
+                        </section>
+                        <section class="card-education flex-column">
+                            <h3>SMA NEGERI 3 LAMONGAN</h3>
+                            <b>2017 - 2020</b>
+                            <h4>SCIENCE</h4>
+                        </section>
+                        <section class="card-education flex-column">
+                            <h3>SMP NEGERI 3 LAMONGAN</h3>
+                            <b>2014 - 2017</b>
+                            <h4>-</h4>
+                        </section>
+                    </article>
+                </section>
+            </div>
+            <div id="ProjectPage" class="tabcontent">
+                <section class="projects">
+                    <h1>PROJECTS</h1>
+                    <article class="flex-row">
+                        <section class="card-projects flex-column">
+                            <h3>Portofolio V2</h3>
+                            <img src="https://raw.githubusercontent.com/abdwasidev/Portofolio-V2/main/portofoliov2.png" alt="" srcset="">
+                            <div class="demo-btn">
+                                <a href="https://abdwasidev.my.id"><button>Demo</button></a>
+                                <a href="https://github.com/abdwasidev/Portofolio-V2"><button>Github</button></a>
+                            </div>
+                            <p>Ini adalah project portofolio pribadi sebagai website utama portofolio saya.</p>
+                            <div id="tools1" class="tools"></div>
+                        </section>
+                        <section class="card-projects flex-column">
+                            <h3>Eatly Web Design</h3>
+                            <img src="https://raw.githubusercontent.com/abdwasidev/Portofolio-V2/main/eatlywebdesign.png" alt="" srcset="">
+                            <div class="demo-btn">
+                                <a href="https://abdwasidev.github.io/Eatly-Web-Design/"><button>Demo</button></a>
+                                <a href="https://github.com/abdwasidev/Eatly-Web-Design"><button>Github</button></a>
+                            </div>
+                            <p>Ini adalah project pembaruan sertifikat submission dicoding kelas dasar pemrograman web</p>
+                            <div id="tools2" class="tools"></div>
+                        </section>
+                        <section class="card-projects flex-column">
+                            <h3>Portofolio V1</h3>
+                            <img src="https://raw.githubusercontent.com/abdwasidev/Portofolio-V2/main/portofoliov1.png" alt="" srcset="">
+                            <div class="demo-btn">
+                                <a href="https://abdwasidev.github.io/Portofolio-V1/"><button>Demo</button></a>
+                                <a href="https://github.com/abdwasidev/Portofolio-V1"><button>Github</button></a>
+                            </div>
+                            <p>Ini adalah project submission dicoding kelas dasar pemrograman web</p>
+                            <div id="tools3" class="tools"></div>
+                        </section>
+                    </article>
+                    <article class="flex-row">
+                    </article>
+                </section>
+            </div>
+            <div id="CertificatePage" class="tabcontent">
+                <section class="certificate">
+                    <h1>CERTIFICATE</h1>
+                    <article class="certificate-row">
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Learn to Build Front-End Web for Beginners</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/315/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1ep2i2q6ZXJf5O0ZUKEbxV4PpEn4nNnGN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Learn Basic Web Programming</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/123/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1Jn8ZYKqHNVldt2v8lAFpOBDcOYR2ambX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Learn Git Basics with GitHub</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/317/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1L8qzaeBEYyHEvcxlMYuOsTAEgA5HxlpR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                    </article>
+                    <article class="certificate-row">
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Cloud Practitioner Essentials (Learn AWS Cloud Basics)</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/251/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1zPIWIQQlvToPUWoO3Xx9qQO8k4RHFMje/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Learn to Build Flutter Apps for Beginners</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/159/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1JgFY6C1DBpMFPGsbmXLz1S-L7y0okiBd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Getting Started with Dart</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/191/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1TUvej-XyDSDFcrL8BKSRwvGbO1B6_Nz9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                    </article>
+                    <article class="certificate-row">
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Learn SOLID Programming Principles</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/169/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1DUfMmbrAJFg7v6kgEMhBi3rkHyhBwOix/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Getting Started with Swift</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/145/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1fUuvWmzl4Euh1efiRbUxeW5bybI_Pjoc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="card-certificate flex-column">
+                            <article class="flex-row">
+                                <section>
+                                    <h3>Getting Started with Python</h3>
+                                    <b>Dicoding</b>
+                                </section>
+                                <section class="button flex-column">
+                                    <a href="https://www.dicoding.com/academies/86/" target="_blank" rel="noopener noreferrer">
+                                        <button>Class</button>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1oM0kI-6jVbGuCwH0vPyU7iP8sK4ae2ab/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <button class="btn">Certificate</button>
+                                    </a>
+                                </section>
+                            </article>
+                        </section>
+                    </article>
+                </section>
+            </div>
+            <div id="AboutMePage" class="tabcontent">
+                <section class="about-me">
+                    <article class="flex-row">
+                        <section class="center first">
+                            <h1>ABDUL WASI' AL-AFIF</h1>
+                            <div><b>Developer</b></div>
+                            <img src="profile.png" alt="">
+                            <p>Mahasiswa Informatika yang antusias dan bermotivasi tinggi dengan kemampuan management waktu, kerja sama tim, dan mencari
+                                tantangan baru. Cukup berpengalaman dalam pemrograman website, dart maupun flutter.</p>
+                        </section>
+                    </article>
+                </section>
+                <section class="about-me white">
+                    <article class="flex-row">
+                        <section class="center second">
+                            <h1>SKILL</h1>
+                            <article class="flex-row">
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/c/c-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/cplusplus/cplusplus-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-plain-wordmark.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/dart/dart-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/flutter/flutter-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/mysql/mysql-original-wordmark.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://github.com/devicons/devicon/raw/master/icons/nodejs/nodejs-original-wordmark.svg" alt="">
+                                </div>
+                            </article>
+                        </section>
+                    </article>
+                </section>
+                <section class="about-me white">
+                    <article class="flex-row">
+                        <section class="center second">
+                            <h1>TOOLS</h1>
+                            <article class="flex-row">
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/androidstudio/androidstudio-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/canva/canva-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/chrome/chrome-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/jetbrains/jetbrains-original.svg" alt="">
+                                </div>
+                                <div class="item-programming flex-column">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/vscode/vscode-original.svg" alt="">
+                                </div>
+                            </article>
+                        </section>
+                    </article>
+                </section>
+            </div>
+        </article>
     </main>
-    <footer>
-        <p>Portofolio - Versi 0.1</p>
-    </footer>
 
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="assets/js/tabs.js"></script>
 </body>
 </html>
